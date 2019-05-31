@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'vs2017-win2016'
+  #examples of other options:'ubuntu-16.04','ubuntu-latest', 'macOS-10.13', 'vs2017-win2016' 
 
 steps:
 - task: NodeTool@0
